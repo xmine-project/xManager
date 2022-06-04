@@ -1,0 +1,30 @@
+# xManager, made by t.me/flxpr | tech.flink.gq/xmanager
+
+actionBars:
+  global:
+    noArguments: "&cНедостаточно &7аргументов"
+    unknownCommand: "&cНеизвестная &7команда"
+  get:
+    playerNotFound: "&7Игрок с никнеймом &c%user% &7не зарегистрирован на сервере" # %user% - ник игрока
+    playerNotSpecified: "&7Вы не указали &cникнейм &7игрока"
+  set:
+    playerNotFound: "&7Игрок с никнеймом &c%user% &7не зарегистрирован на сервере" # %user% - ник игрока
+    playerNotSpecified: "&7Вы не указали &cникнейм &7игрока"
+
+chat:
+  get:
+    userInfo: # %user% - ник игрока, %uuid% - uuid игрока, %group% - luckperms group игрока
+      - |-
+        &7Информация о игроке &c%user%&7:
+        &7UUID: &c%uuid%
+        &7Группа: &c%group%
+    uuid: # %user% - ник игрока, %uuid% - uuid игрока
+      - |-
+        &7UUID игрока &c%user%&7: &c%uuid%
+    group: # %user% - ник игрока, %group% - luckperms group игрока
+      - |-
+        &7Группа игрока &c%user%&7: &c%group%
+  set:
+    group: # %user% - ник игрока, %group% - установленная группа
+      - |-
+        &7Новая группа игрока &c%user%&7: &c%group%

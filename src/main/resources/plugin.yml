@@ -1,0 +1,11 @@
+name: xManager
+version: '${project.version}'
+main: flxxd.xManager.Main
+api-version: 1.18
+depend: [ LuckPerms ]
+authors: [ flxxd ]
+description: lite LuckPerms API wrapper
+website: tech.flink.gq/xmanager
+commands:
+  manager:
+    aliases: ["xmanager"]
