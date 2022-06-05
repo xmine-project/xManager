@@ -1,5 +1,5 @@
 name: xManager
-version: '${project.version}'
+version: 1.0.2
 main: flxxd.xManager.Main
 api-version: 1.18
 depend: [ LuckPerms ]
