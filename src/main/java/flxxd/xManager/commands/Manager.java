@@ -145,7 +145,7 @@ public class Manager extends AbstractCommand {
             }
         }
 
-        send3r.sendActionBar(Main.getValue("actionBars.global.unknownCommand").replace("&", "§"));
+        send3r.sendActionBar(Main.getValue("actionBars.global.unknownCommand"));
     }
 
     public List<String> complete (CommandSender sender, String[] args) {
